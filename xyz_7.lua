@@ -2,7 +2,7 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/lime"))()
 
-local w = Library:Window("Main")
+local w = Library:Window("Main Made by x_Cusive❤️")
 
 local Virtual = game:GetService("VirtualUser")
 _G.AutoOpen = false
