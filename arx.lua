@@ -29,7 +29,7 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main" }),
+    Main = Window:AddTab({ Title = "Main หน้านี้เปิดฟังชั่นก์แล้วเดินไม่ได้นะ555" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
