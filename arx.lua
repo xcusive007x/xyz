@@ -162,12 +162,11 @@ Toggle_Play:OnChanged(function()
                         GuiService.SelectedObject = PlayButton
                         GuiService.SelectedCoreObject = PlayButton
                         VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Return, false, game)
-                        task.wait(0.05)
                         VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Return, false, game)
                     end
                 end)
                 if not success then warn("Auto Play error:", err) end
-                task.wait(1)
+                task.wait(2)
             end
         end)
     end
