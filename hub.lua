@@ -1,3 +1,4 @@
+repeat wait() until game:IsLoaded() and game.Players and game.Players.LocalPlayer and game.Players.LocalPlayer.Character
 local gameId = game.PlaceId
 if gameId == 72829404259339 then
 	print("anime rangers x")
